@@ -1,0 +1,114 @@
+body {
+	margin: 0;
+	color: black;
+	font-size: 16px;
+	font-family: 'Garamond', 'Times', serif;
+	font-style: italic;
+	line-height: 1.5em;
+	text-align: center;
+}
+
+h1 {
+	font-size: 3em;
+	font-family: 'Oswald', 'Garamond', 'Times', serif;
+	font-style: normal;
+	font-weight: normal;
+	margin: 0 auto 0.35em;
+	line-height: 1em;
+}
+
+h2 {
+	font-size: 1.9em;
+	font-family: 'Oswald', 'Garamond', 'Times', serif;
+	font-style: normal;
+	font-weight: normal;
+	line-height: 1em;
+	margin: 0 auto 0.35em;
+
+}
+
+#title {
+	padding: 1em;
+	margin-top: 3em;
+	background-color: #6da3f9;
+}
+
+#page {
+	position: relative;
+	width: 50em;
+	margin: 0 auto;
+}
+
+#header {
+	width: 50em;
+	margin-bottom: 2em;
+}
+
+	#header #subtitle {
+		font-size: 1.5em;
+		line-height: 1em;
+		letter-spacing: 1px;
+	}
+
+#nav {
+	margin: 0 auto;
+	padding: 0;
+	width: 45	em;
+	list-style: none;
+	text-align: center;
+}
+
+	#nav li {
+		margin: 1em 0;
+	}
+
+	#nav li a {
+		text-decoration: none;
+		color: #222;
+	}
+
+	#nav a .button {
+		font-style: italic;
+		font-size: 1.9em;
+		padding: 0 1.3em;
+	}
+
+	#nav a:hover .button {
+		/*background: url(finger-l.png) left no-repeat;*/
+		background-color: black;
+		color: white;
+	}
+
+	#nav a .text {
+		display: none;
+		width: 600px;
+	}
+	
+	#nav a:hover .text {
+		display: block;
+		position: absolute;
+		width: 100px
+		vertical-align: middle;
+		top: 33em;
+		left: 6.6em;
+	}
+
+	#nav a:active, #nav a:focus {
+		outline-style: none;
+		outline-width: 0;
+	}
+
+#box {
+	margin-bottom: 1em;
+	position: absolute;
+	width: 600px;
+	height: 3em;
+	border: 1px dashed black;
+	top: 33em;
+	left: 6.6em;
+}
+
+#contact {
+	margin-bottom: 0em;
+	position: absolute;
+}
