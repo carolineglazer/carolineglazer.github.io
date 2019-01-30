@@ -3,12 +3,26 @@
     <head>
         <meta charset="UTF-8">
         <style>
-p { color: green; }
-@media (max-width: 8.5in) { p { color: blue; } }
-@media (max-width: 5.0in) { p { color: red ; } }
+        article {
+        	display: grid;
+        	grid-template-columns: 1fr minmax(0,8.5in) 1fr;
+        	height: 11in; /* temp fix */
+        }
+
+        article * { grid-column: 2 / 3; }
+
+        .debug-center {
+        	display: flex;
+        	justify-content: center;
+        	align-items: center;
+        }
+
         </style>
     </head>
     <body>
-        <p>hello, world!</p>
+        <article>
+        	<p class="debug-center">ARTICLE</p>
+        	Hi there. This is my first blog post on a blog created from scratch. Wow!
+        </article>
     </body>
 </html>
