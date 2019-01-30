@@ -17,9 +17,9 @@ h2 {
 }
 
 #title {
-	padding: 1em;
-	margin-top: 3em;
+	padding: 0.5em;
 	background-color: #6da3f9;
+	margin: 0em 0em 1em 0em;
 }
 
 article {
@@ -38,7 +38,7 @@ article {
         	display: flex;
         	justify-content: center;
         	align-items: center;
-        	}
+        }
 
         .size-1 {grid-column: 4/5;}
         .size-2 {grid-column: 3/6;}
