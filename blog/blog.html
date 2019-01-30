@@ -3,29 +3,41 @@
     <head>
         <meta charset="UTF-8">
         <style>
-        @media (max-width: 8.5in) {
-        	article {
-        		display: grid;
-        		grid-template-columns: 1fr 20% [start] 60% [end] 20% 1fr;
-        		height: 11in; /* temp fix */
+        article {
+        	display: grid;
+        	grid-template-columns: 1fr 0.5in minmax(0, 7.5in) [end] 1fr;
+        	height: 11in; /* temp fix */
+        	padding: 0.5in 0;
+        }
+
+       	article * { grid-column: start / end; }
+
+        .debug-center {
+        	display: flex;
+        	justify-content: center;
+        	align-items: center;
         	}
 
-       		article * { grid-column: start / end; }
+    	@media (max-width: 8.5 in) {
+    		article { grid-template-columns: 1fr 5% [start] minmax(0, 7.5in) [end] 5% 1fr; }
+    	}
 
-        	.debug-center {
-        		display: flex;
-        		justify-content: center;
-        		align-items: center;
-        		}
-        }
+
         </style>
     </head>
     <body>
+        <!-- article -->
         <article>
         	<p class="debug-center">ARTICLE
         		<br>Hi there. This is my first blog post on a blog created from scratch. Wow!
         	</p>
+        </article>
 
+        <!-- article -->
+        <article>
+        	<p class="debug-center">ARTICLE 2
+        		<br>Hi there. This is my first blog post on a blog created from scratch. Wow!
+        	</p>
         </article>
     </body>
 </html>
