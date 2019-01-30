@@ -3,20 +3,21 @@
     <head>
         <meta charset="UTF-8">
         <style>
-        article {
-        	display: grid;
-        	grid-template-columns: 1fr 5% [start] 90% [end] 5% 1fr;
-        	height: 11in; /* temp fix */
+        @media (max-width: 8.5in) {
+        	article {
+        		display: grid;
+        		grid-template-columns: 1fr 5% [start] 90% [end] 5% 1fr;
+        		height: 11in; /* temp fix */
+        	}
+
+       		article * { grid-column: start / end; }
+
+        	.debug-center {
+        		display: flex;
+        		justify-content: center;
+        		align-items: center;
+        		}
         }
-
-        article * { grid-column: 2 / 3; }
-
-        .debug-center {
-        	display: flex;
-        	justify-content: center;
-        	align-items: center;
-        }
-
         </style>
     </head>
     <body>
