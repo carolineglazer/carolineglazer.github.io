@@ -5,12 +5,16 @@
         <style>
         article {
         	display: grid;
-        	grid-template-columns: 1fr 0.5in [start] minmax(0, 7.5in) [end] 0.5in 1fr;
+        	grid-template-columns: 1fr 0.5in [start] 1.25in 5in 1.25in [end] 0.5in 1fr;
         	height: 11in; /* temp fix */
         	padding: 0.5in 0;
         }
 
        	article * { grid-column: start / end; }
+
+    	@media (max-width: 8.5 in) {
+    		article { grid-template-columns: 1fr 5% [start] 15% 60% 15% [end] 5% 1fr; }
+    	}
 
         .debug-center {
         	display: flex;
@@ -18,10 +22,12 @@
         	align-items: center;
         	}
 
-    	@media (max-width: 8.5 in) {
-    		article { grid-template-columns: 1fr 5% [start] minmax(0, 7.5in) [end] 5% 1fr; }
-    	}
+        .size-1 {grid-column: 4/5;}
+        .size-2 {grid-column: 3/6;}
+        .size-3 {grid-column: 2/7;}
+        .size-4 {grid-column: 1/8;}
 
+        img.size-1, img.size-2, img.size-3, img.size-4 {width: 100%}    	
 
         </style>
     </head>
@@ -29,15 +35,16 @@
         <!-- article -->
         <article>
         	<p class="debug-center">ARTICLE
-        		<br>Hi there. This is my first blog post on a blog created from scratch. Wow!
+        		<img class="size-4" src="images/log.jpg">
+        		<img class="size-3" src="images/log.jpg">
+        		<img class="size-2" src="images/log.jpg">
+        		<img class="size-1" src="images/log.jpg">
         	</p>
         </article>
 
         <!-- article -->
         <article>
-        	<p class="debug-center">ARTICLE 2
-        		<br>Hi there. This is my first blog post on a blog created from scratch. Wow!
-        	</p>
+        	<p class="debug-center">ARTICLE 2</p>
         </article>
     </body>
 </html>
