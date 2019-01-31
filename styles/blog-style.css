@@ -74,6 +74,11 @@ p {
 	margin-bottom: 1em;
 }
 
+p ul {
+	font-size: 1.2em;
+	margin-bottom: 1em;	
+}
+
 figcaption {
 	margin-top: 0.5rem;
 	display: flex;
