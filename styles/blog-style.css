@@ -100,9 +100,9 @@ article * { grid-column: start / end; }
 @media (max-width: 8.5 in) {
 	article { grid-template-columns: 1fr 5% [start] 15% 60% 15% [end] 5% 1fr; }
 }
-@media (max-width: 4 in) {
-	body {background-color: #FF00FF;}
-}
+
+@media (max-width: 1.0in) { article { background-color: fuschia ; } }
+
 
 /* Figure-specific */
 
