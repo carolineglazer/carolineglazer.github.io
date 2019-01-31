@@ -1,4 +1,5 @@
 /* Reset */
+
 body,
 body * {
 	margin:          unset;
@@ -63,6 +64,7 @@ p {
 }
 
 figcaption {
+	margin-top: 0.5rem;
 	display: flex;
 	justify-content: center;
 	color: hsl(000,000%,55%);	
