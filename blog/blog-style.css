@@ -46,6 +46,7 @@ time {
 	font-style: italic;
 	font-size: 1.2em;
 	color: #6da3f9;
+	margin-bottom: 0.5em;
 }
 
 a {
@@ -60,7 +61,7 @@ a:hover {
 
 p {
 	font-size: 1.2em;
-	margin-bottom: 0em;
+	margin-bottom: 1em;
 }
 
 figcaption {
