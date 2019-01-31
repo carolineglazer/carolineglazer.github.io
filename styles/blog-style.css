@@ -63,6 +63,7 @@ a {
 	box-shadow: inset 0 -0.25em hsl(217, 92%, 70%);
 	text-decoration: none;
 	color: black;
+
 }
 
 a:hover {
@@ -74,7 +75,7 @@ p {
 	margin-bottom: 1em;
 }
 
-p ul * {
+ul {
 	font-size: 1.2em;
 	margin-bottom: 1em;	
 }
