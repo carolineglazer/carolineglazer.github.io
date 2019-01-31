@@ -3,7 +3,7 @@ h1 {
 	font-family: 'Oswald', 'Garamond', 'Times', serif;
 	font-style: normal;
 	font-weight: normal;
-	margin: 0 auto 0.35em;
+	margin: 0 auto 0.35em auto;
 	line-height: 1em;
 }
 
@@ -13,7 +13,7 @@ h2 {
 	font-style: normal;
 	font-weight: normal;
 	line-height: 1em;
-	margin: 0 auto 0.35em;
+	margin: 0 auto 0.8em auto;
 	color: hsl(000,000%,55%);
 }
 
@@ -25,12 +25,18 @@ time {
 }
 
 a {
-	box-shadow: inset 0 -0.25em hsl(217, 92%, 70%)
+	box-shadow: inset 0 -0.25em hsl(217, 92%, 70%);
+	text-decoration: none;
+	color: black;
+}
+
+a:hover {
+	box-shadow: inset 0 -1.25em hsl(217, 92%, 70%);
 }
 
 p {
 	font-size: 1.2em;
-	margin: 0 inherit;
+	margin-bottom: 0em;
 }
 
 article {
