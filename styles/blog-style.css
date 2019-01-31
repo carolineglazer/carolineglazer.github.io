@@ -43,6 +43,14 @@ h2 {
 	color: hsl(000,000%,55%);
 }
 
+h3 {
+	font-family: font-family: 'Oswald', 'Garamond', 'Times', sans-serif;
+	font-style: italic;
+	font-size: 1.2em;
+	color: #6da3f9;
+	margin-bottom: 0.5em;
+}
+
 time {
 	font-family: font-family: 'Oswald', 'Garamond', 'Times', sans-serif;
 	font-style: italic;
@@ -85,6 +93,9 @@ article * { grid-column: start / end; }
 
 @media (max-width: 8.5 in) {
 	article { grid-template-columns: 1fr 5% [start] 15% 60% 15% [end] 5% 1fr; }
+}
+@media (max-width: 1 in) {
+	body {background-color: #FF00FF;}
 }
 
 /* Figure-specific */
