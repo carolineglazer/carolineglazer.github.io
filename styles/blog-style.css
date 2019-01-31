@@ -101,7 +101,7 @@ article * { grid-column: start / end; }
 	article { grid-template-columns: 1fr 5% [start] 15% 60% 15% [end] 5% 1fr; }
 }
 
-@media (max-width: 1.0 in) { article { background-color: fuschia ; } }
+@media (max-width: 2.0in) { body { background-color: fuchsia ; } }
 
 
 /* Figure-specific */
