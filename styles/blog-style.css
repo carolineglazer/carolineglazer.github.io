@@ -24,14 +24,8 @@ figure * {
 
 /* Text styles */
 
-#title {
-	padding: 1em;
-	margin-top: 3em;
-	background-color: #6da3f9;
-}
-
 h1 {
-	font-size: 5em;
+	font-size: 4em;
 	font-family: 'Oswald', 'Garamond', 'Times', serif;
 	font-style: normal;
 	font-weight: normal;
@@ -40,7 +34,7 @@ h1 {
 }
 
 h2 {
-	font-size: 3em;
+	font-size: 2em;
 	font-family: 'Oswald', 'Garamond', 'Times', serif;
 	font-style: normal;
 	font-weight: normal;
