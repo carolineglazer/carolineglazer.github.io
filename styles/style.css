@@ -99,16 +99,6 @@ h2 {
 		outline-width: 0;
 	}
 
-#box {
-	margin-bottom: 1em;
-	position: absolute;
-	width: 600px;
-	height: 3em;
-	border: 1px dashed white;
-	top: 33em;
-	left: 6.6em;
-}
-
 #contact {
 	margin-bottom: 0em;
 	position: absolute;
